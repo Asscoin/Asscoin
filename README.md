@@ -94,7 +94,7 @@ asscoind
 
 oops! )))
 
-cd .asscoin/asscoin.conf
+nano .asscoin/asscoin.conf
 
 Writes the data in the editor
 
@@ -114,7 +114,7 @@ daemon=1
 
 server=1
 
-rpcallowip=127.0.0.1
+
 
 
 exit shortcuts
