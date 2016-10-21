@@ -74,6 +74,8 @@ cd Asscoin/src
 
 rm -rf leveldb
 
+unzip leveldb.zip
+
 cd leveldb
 
 chmod 0777 ./build_detect_platform
