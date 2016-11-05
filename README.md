@@ -96,6 +96,8 @@ asscoind
 
 oops! )))
 
+mkdir .asscoin
+
 nano .asscoin/asscoin.conf
 
 Writes the data in the editor
@@ -108,7 +110,7 @@ rpcport=8142
 
 port=8141
 
-addnode=162.222.227.106
+addnode=104.254.98.208
 
 listen=1
 
