@@ -22,28 +22,7 @@ If fallocate doesn’t work, you can use dd if=/dev/zero of=/swapfile bs=1024 co
 
 Initialize swapfile automatically on boot
 
-nano /etc/fstab
 
-Add this at the bottom: /swapfile none swap sw 0 0
-
-exit shortcuts
-
-ctrl+х
-
-y
-
-enter
-
-
-Install all required dependencies:
-
-apt-get update && apt-get upgrade
-
-apt-get install ntp unzip git build-essential libssl-dev libdb-dev
-
-apt-get install libdb++-dev libboost-all-dev libqrencode-dev
-
-aptitude install miniupnpc libminiupnpc-dev
 
 Pull the source code from github, or upload it yourself:
 
